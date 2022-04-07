@@ -5,9 +5,8 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
- 
 
-# Make data base, printed on Thu Apr  7 11:01:30 2022
+# Make data base, printed on Thu Apr  7 11:21:15 2022
 
 # Variables
 
@@ -47,6 +46,7 @@ VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupp
 _ = /usr/share/codium/codium
 # environment
 XDG_CONFIG_DIRS = /etc/xdg/xdg-xubuntu:/etc/xdg:/etc/xdg
+ 
 # environment
 GTK_OVERLAY_SCROLLING = 0
 # makefile (from 'Makefile', line 1)
@@ -152,7 +152,7 @@ SHLVL = 0
 # makefile (from 'Makefile', line 1)
 CC := clang
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-be6e8271-fe91-4f80-abbb-7079300c80c7.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-bd1608c5-f8a5-457b-8fe4-65f3b8b83927.sock
 # environment
 XDG_SESSION_ID = c1
 # environment
@@ -286,7 +286,6 @@ test: all
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
- 
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 34):
 	@echo "[\033[36mINFO\033[0m] Executing testrunner..."
@@ -327,6 +326,7 @@ run: all
 #  recipe to execute (from 'Makefile', line 30):
 	@echo "[\033[36mINFO\033[0m] Executing binary..."
 	./$(ASSIGNMENT) config.txt
+ 
 
 clean:
 #  Phony target (prerequisite of .PHONY).
@@ -373,6 +373,6 @@ clean:
 # strcache performance: lookups = 55 / hit rate = 45%
 # hash-table stats:
 # Load=30/8192=0%, Rehash=0, Collisions=1/55=2%
-# Finished Make data base on Thu Apr  7 11:01:30 2022
+# Finished Make data base on Thu Apr  7 11:21:15 2022
 
  
