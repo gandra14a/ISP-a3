@@ -1,0 +1,15 @@
+==2192== Memcheck, a memory error detector
+==2192== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2192== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2192== Command: ./a3
+==2192== Parent PID: 2191
+==2192== 
+==2192== 
+==2192== HEAP SUMMARY:
+==2192==     in use at exit: 0 bytes in 0 blocks
+==2192==   total heap usage: 1 allocs, 1 frees, 4,096 bytes allocated
+==2192== 
+==2192== All heap blocks were freed -- no leaks are possible
+==2192== 
+==2192== For lists of detected and suppressed errors, rerun with: -s
+==2192== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
